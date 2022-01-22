@@ -60,10 +60,6 @@
 		<ProjectReference Include="..\App.Web.Infrastructure\App.Web.Infrastructure.csproj" />
 		<ProjectReference Include="..\App.Web.ViewModels\App.Web.ViewModels.csproj" />
 	</ItemGroup>
-
-	<ItemGroup>
-		<Folder Include="ClientApp\" />
-	</ItemGroup>
 	<ItemGroup>
 		<!-- Don't publish the SPA source files, but do show them in the project files list -->
 		<Content Remove="$(SpaRoot)**" />
